@@ -10,10 +10,11 @@ pizza.push(massas[1]);
 pizza.push(molhos[0]);
 pizza.push(queijos[2]);
 pizza.push(carnes[3]);
-pizza.push(vegetais)[4];
-
-console.log("pizza montada:");
-for (let i = 0; i < pizza.length; i++) {
-    console.log(pizza[i]);
-}    
+pizza.push(vegetais)[4];   
     
+for (let i = 0; i < pizza.length; i ++) {
+    if (i == 0 && pizza[i] == massas[1]){
+        console.log("Hummmm... tá fit!");
+    }
+    console.log(pizza[i]);
+}
